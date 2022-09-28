@@ -27,7 +27,7 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	margin-right: 20px;
-	transition: transform 0.5s;
+	transition: transform 0.3s;
 	}
 nav ul li:hover{
 	transform: translateY(-5px);
@@ -347,14 +347,41 @@ select:focus{
 	padding: 20px;
 }
 .single-product h4{
-	margin: 20px 0;
+	margin: 20px 5px 0 0;
 	font-size: 22px;
 	font-weight: bold;
 }
+.single-product .col-2 .product-title h1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.single-product .col-2 .product-title p{
+	margin-bottom: 110px;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.price h4{
+	display: inline;
+}
+.price span h4{
+	color:  #ff523b;
+}
+.price del h4{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.single-product .col-2 h6{
+	color: rgb(5, 163, 82);
+}
+
+
 .single-product select{
 	display: block;
 	padding: 10px;
 	margin-top: 20px;
+	border-radius: 2px;
 }
 .single-product input{
 	width: 50px;
@@ -363,6 +390,8 @@ select:focus{
 	font-size: 20px;
 	margin-right: 10px;
 	border: 1px solid #ff523b;
+	border-radius: 2px;
+	
 }
 input:focus{
 	outline: none;
